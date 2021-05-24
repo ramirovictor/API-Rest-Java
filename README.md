@@ -1,5 +1,5 @@
 # API-Rest-Java
-Desafio técnico
+Desafio técnico IBM
 
 
 Cadastrar uma nova pauta;
