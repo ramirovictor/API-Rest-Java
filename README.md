@@ -2,7 +2,7 @@
 <h1>API-Rest-Java11</h1>
 <h3>Desafio técnico IBM</h3>
 
-> Status: concluído
+> Status: concluído 🌐
 
 ### Objetivo:
 #### Solução back-end para gerenciar sessões de votação.
