@@ -16,8 +16,6 @@ identificado por um id único e pode votar apenas uma vez por pauta);
 Para fins de exercício, a segurança das interfaces pode ser abstraída e qualquer chamada para as interfaces
 pode ser considerada como autorizada. A escolha da linguagem,
 
-
-
 ### Tarefa Bônus 1 - Integração com sistemas externos
 #### Integrar com um sistema que verifique, a partir do CPF do associado, se ele pode votar
 + GET https://user-info.herokuapp.com/users/{cpf}
