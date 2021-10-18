@@ -1,30 +1,27 @@
 ![1_g4OPeVwVbt0HTQo2dkV4ew](https://user-images.githubusercontent.com/37045332/124752079-c6e63580-defd-11eb-8b00-68f42c0f6689.png)
-<h1>API-Rest-Java11</h1>
-<h3>Desafio técnico IBM</h3>
+<h1>API-Rest-Java 11</h1>
+<h3>IBM technical challenge</h3>
 
-> Status: concluído 🌐
+> Status: Done 🌐
 
 ### Objetivo:
-#### Solução back-end para gerenciar sessões de votação.
-#### Essa solução deve ser executada na nuvem e promover as seguintes funcionalidades através de uma API RST:
-+ Cdastrar uma nova pauta;
-+ Abrir uma sessão de votação em uma pauta (a sessão de votação deve ficar aberta por um tempo
-determinado na chamada de abertura ou 1 minuto por default);
-+ Receber votos dos associados em pautas (os votos são apenas 'Sim'/'Não'. Cada associado é
-identificado por um id único e pode votar apenas uma vez por pauta);
-+ Contabilizar os votos e dar o resultado da votação na pauta.
-Para fins de exercício, a segurança das interfaces pode ser abstraída e qualquer chamada para as interfaces
-pode ser considerada como autorizada. A escolha da linguagem,
+#### Back-end solution to manage voting sessions.
+#### This solution must run in the cloud and promote the following features through an RST API:
++ Register a new agenda;;
++ Open a voting session on an agenda (the voting session must be open for a specified amount of time in the opening call or 1 minute by default);
++ Receive votes from members on agendas (votes are only 'Yes'/'No'. Each member is identified by a unique id and can vote only once per agenda);
++ Count the votes and give the result of the vote on the agenda.
+For exercise purposes, the security of the interfaces can be abstracted and any calls to the interfaces can be considered as authorized. The choice of language,
 
-### Tarefa Bônus 1 - Integração com sistemas externos
-#### Integrar com um sistema que verifique, a partir do CPF do associado, se ele pode votar
+### Bonus Task 1 - Integration with external systems
+#### Integrate with a system that checks, from the member's CPF, whether he can vote
 + GET https://user-info.herokuapp.com/users/{cpf}
-+ Caso o CPF seja inválido, a API retornará o HTTP Status 404 (Not found). Você pode
-usar geradores de CPF para gerar CPFs válidos;
-+ Caso o CPF seja válido, a API retornará se o usuário pode (ABLE_TO_VOTE) ou não
-pode (UNABLE_TO_VOTE) executar a operação
++ If the CPF is invalid, the API will return HTTP Status 404 (Not found). You can use CPF generators to generate valid CPFs;
++ If the CPF is valid, the API will return if the user can (ABLE_TO_VOTE) or cannot (UNABLE_TO_VOTE) execute the operation
 
-##Tecnologias e Ferramentas
+####code in portuguese
+
+## Technologies and Tools
 <table>
   <tr> 
     <td>Java</td>
