@@ -4,7 +4,7 @@
 
 > Status: Done 🌐
 
-### Objetivo:
+### goal:
 #### Back-end solution to manage voting sessions.
 #### This solution must run in the cloud and promote the following features through an RST API:
 + Register a new agenda;;
